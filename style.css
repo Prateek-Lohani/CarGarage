@@ -190,7 +190,7 @@ background-image: url(./assets/news/maserati.jpeg);
     .mobile-view h1{
         padding:10%;
         margin-top: 40%;
-        font-family: cursive;
+        font-family: monospace;
     }
     .mobile-view img{
         display: block;
