@@ -87,6 +87,9 @@ img:hover{
     transition: ease-in-out 0.3s;
 }
 
+.mobile-view{
+    display:none;
+}
 
 .bottom{
     width:100%;
@@ -110,3 +113,7 @@ img:hover{
     .bottom{
         display:none;
     }
+    .mobile-view{
+        display:initial;
+    }
+}
