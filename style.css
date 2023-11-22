@@ -123,10 +123,9 @@ img:hover{
 
     .mobile-view h1{
         padding:10%;
-        margin-top: 10%;
+        margin-top: 40%;
     }
     .mobile-view img{
-        margin-top: 20%;
         display: block;
         object-fit: cover;
         width:50%;
