@@ -36,7 +36,7 @@ i{
 .header-right{
     display: flex;
     flex-direction: row;
-    gap:5rem;
+    gap:4rem;
 }
 
 .header-right h4:hover{
@@ -82,6 +82,7 @@ article .brand{
     height: 100%;
 }
 
+
 img:hover{
     scale:1.1;
     transition: ease-in-out 0.3s;
@@ -93,9 +94,74 @@ img:hover{
 
 .bottom{
     width:100%;
-    background-color: rgba(0, 0, 0, 0.963);
     height: calc(100% - (30% + 60px));
+    /* padding:1%; */
+}
 
+.bottom-article{
+    height:100%;
+    width:100%;
+    padding: 1%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x:auto;
+}
+
+.bottom-article::-webkit-scrollbar{
+    background-color: rgb(202, 199, 199);
+    height:5px;
+}
+
+.bottom-article::-webkit-scrollbar-thumb{
+    background-color:black;
+    height:30px;
+}
+
+.img-container{
+    height:100%;
+    background-size: cover;
+    width:100%;
+    border-radius: 4px;
+}
+
+.img1{
+    background-image: url(./assets/news/bmw.jpeg);
+}
+
+.img2{
+    background-image: url(./assets/news/audi.jpeg);
+}
+
+.img3{
+    background-image: url(./assets/news/volvo.jpeg);
+}
+
+.img4{
+background-image: url(./assets/news/lambo.jpeg);
+}
+
+.img5{
+    background-image: url(./assets/news/rr.jpeg);
+}
+
+.img6{
+background-image: url(./assets/news/maserati.jpeg);
+}
+
+.img7{
+    background-image: url(./assets/news/img7.jpeg);
+}
+
+.article-text{
+    flex-shrink: 0;
+    margin-right: 9px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    flex-direction: column;
+    width:40%;
+    height: 100%;
+    padding:15px;
 }
 
 @media (max-width:600px){
@@ -124,14 +190,21 @@ img:hover{
     .mobile-view h1{
         padding:10%;
         margin-top: 40%;
+        font-family: cursive;
     }
     .mobile-view img{
         display: block;
         object-fit: cover;
         width:50%;
-        margin-left: 20%;
-        rotate:5deg;
+        margin-left: 25%;
+        border-radius: 6px;
         
     }
+
+    .mobile-view img:hover{
+        scale: unset;
+    }
+
+  
 
 }
