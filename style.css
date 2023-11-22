@@ -117,6 +117,7 @@ img:hover{
         display:initial;
         text-align:center;
         display:flex;
+        top:50vw;
         justify-content:center;
         align-items:center;
     }
