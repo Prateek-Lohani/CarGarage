@@ -131,6 +131,7 @@ img:hover{
         object-fit: cover;
         width:50%;
         margin-left: 15%;
+        rotate:4deg;
         
     }
 
