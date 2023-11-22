@@ -75,7 +75,7 @@ article .brand{
 }
 
 
-img{
+.brand img{
     object-fit: contain;
     width: 100%;
     
@@ -117,12 +117,23 @@ img:hover{
         display:initial;
         text-align:center;
         display:flex;
-        top:50%;
         justify-content:center;
         align-items:center;
+        flex-direction: column;
     }
 
-    mobile-view h1{
+    .mobile-view h1{
+        padding:10%;
+        margin-top: 10%;
         background-color:yellow;
     }
+    .mobile-view img{
+        margin-top: 30%;
+        display: block;
+        object-fit: cover;
+        width:50%;
+        margin-left: 15%;
+        
+    }
+
 }
