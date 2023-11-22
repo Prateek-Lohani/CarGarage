@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    width:100%;
+    height:100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.2rem;
+    width:100%;
+    height:60px;
+}
+
+header{
+font-size: 1.3rem;
+font-weight: 700;
+}
+
+i{
+    color:orangered;
+    padding:8px;
+}
+
+.header-right{
+    display: flex;
+    flex-direction: row;
+    gap:5rem;
+}
+
+.header-right h4:hover{
+    cursor: pointer;
+    color: orangered;
+}
+
+.center{
+    width: 100%;
+    height:30%;
+    padding:1%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.center::-webkit-scrollbar{
+   background-color: rgb(218, 216, 216);
+   height: 5px;
+}
+
+.center::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+
+.center article{
+    height:100%;
+    width:30%;
+    flex-shrink: 0;
+    padding:1% 0;   
+}
+
+article .brand{
+    height: 100%;
+    width: 100%;
+}
+
+
+img{
+    object-fit: contain;
+    width: 100%;
+    
+    height: 100%;
+}
+
+img:hover{
+    scale:1.1;
+    transition: ease-in-out 0.3s;
+}
+
+
+.bottom{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.963);
+    height: calc(100% - (30% + 60px));
+
+}
+
+.brand1{
+}
