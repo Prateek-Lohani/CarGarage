@@ -121,4 +121,8 @@ img:hover{
         justify-content:center;
         align-items:center;
     }
+
+    mobile-view h1{
+        background-color:yellow;
+    }
 }
